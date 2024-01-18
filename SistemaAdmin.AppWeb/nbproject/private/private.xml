@@ -12,10 +12,10 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="ProyectoControlUsuario">
-            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/web/Views/Producto/create.jsp</file>
-            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/web/Views/Producto/delete.jsp</file>
-            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/src/java/sistemaadmin/appweb/controllers/ProductoServlet.java</file>
-            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/web/Views/Producto/details.jsp</file>
+            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/src/java/sistemaadmin/appweb/utils/Utilidad.java</file>
+            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/src/java/sistemaadmin/appweb/controllers/UsuarioServlet.java</file>
+            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/src/java/sistemaadmin/appweb/utils/SessionUser.java</file>
+            <file>file:/C:/Users/migue/Desktop/ProyectoControlUsuario/SistemaAdmin.AppWeb/web/index.jsp</file>
         </group>
     </open-files>
 </project-private>
