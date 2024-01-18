@@ -1,7 +1,7 @@
 # Proyecto-Java-EchoTechnologies
 
 El proyecto ofrece es el servicio de Administrar usuarios y producto con permisos de administrador el proyecto esta realizado en capas y usando el IDE de Apache NetBeans IDE 17
-y como gestor de bases de datos ocupa SQLServer y alojado en yn repositorio GitHub
+y como gestor de bases de datos ocupa SQLServer utilizando como servidor ApacheTomcat y alojado en yn repositorio GitHub
 
 enlace del Repositorio: https://github.com/MiguelAlfaro1/Proyecto-Java-EchoTechnologies.git
 
