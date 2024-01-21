@@ -245,7 +245,7 @@ public class UsuarioServlet extends HttpServlet {
                 request.getRequestDispatcher("Views/Usuario/cambiarPassword.jsp")
                         .forward(request, response);
             } else {
-                Utilidad.enviarError("El Login: "
+                Utilidad.enviarError("El Usario: "
                         + usuario.getLogin() + " no existe en los registros", request, response);
             }
 
@@ -265,7 +265,7 @@ public class UsuarioServlet extends HttpServlet {
             if (result != 0) {
                 response.sendRedirect("Usuario?accion=login");
             } else {
-                Utilidad.enviarError("No se logro cambiar el password",
+                Utilidad.enviarError("No se logro cambiar la Contraceña",
                         request, response);
             }
 

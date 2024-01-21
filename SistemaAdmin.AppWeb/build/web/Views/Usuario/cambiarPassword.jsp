@@ -27,15 +27,12 @@
                 </div>
                 <div class="row">
                     <div class="input-field col 14 s12" style="margin-top: 30px">
-                        <input type="password" id="txtConfirmPassword_aux" 
-                               name ="confirmPassword_aux" 
-                               required class="validate" minlength="5" maxlength="32">
-                        <label for="txtConfirmPassword_aux">Confirmar Contraceña</label>
-                        <span id="txtConfirmPassword_aux_error" 
-                              style="color:red;font-weight: bold" class="helper-text">
-                        </span>
+                        <input type="text" id="txtPasswordActual" name ="passwordActual" 
+                               required class="validate" 
+                               minlength="5" maxlength="32">
+                        <label for="txtPasswordActual"> Contraceña Actual</label>
                     </div>
-                </div>
+                </div>  
                 <div class="row">
                     <div class="input-field col 14 s12" style="margin-top: 30px">
                         <input type="password" id="txtPassword" name ="password" required 
@@ -45,12 +42,15 @@
                 </div>
                 <div class="row">
                     <div class="input-field col 14 s12" style="margin-top: 30px">
-                        <input type="text" id="txtPasswordActual" name ="passwordActual" 
-                               required class="validate" 
-                               minlength="5" maxlength="32">
-                        <label for="txtApellido">Contraceña Actual</label>
+                        <input type="password" id="txtConfirmPassword_aux" 
+                               name ="confirmPassword_aux" 
+                               required class="validate" minlength="5" maxlength="32">
+                        <label for="txtConfirmPassword_aux">Confirmar Contraceña</label>
+                        <span id="txtConfirmPassword_aux_error" 
+                              style="color:red;font-weight: bold" class="helper-text">
+                        </span>
                     </div>
-                </div>         
+                </div>
 
                 <div class="row" style="margin-top: 30px">
                     <div class="col 112 s12">
@@ -76,7 +76,7 @@
                 {
                     $("#txtConfirmPassword_aux_error").empty();
                     $("#txtConfirmPassword_aux_error")
-                            .append("El Password y Confirmar password deben ser iguales");
+                            .append("El Contraceña y Confirmar Contraceña deben ser iguales");
                     result = false;
                 } else
                 {
