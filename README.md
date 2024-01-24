@@ -11,5 +11,7 @@ correcto uso del proyecto :
  paso 3: Buscamos el apartado de folder of proyect y buscamos donde tememos alojado el proyecto
  paso 4: Abrir la carpeta donde se aloja todos los proyectos y creamos el nuevo grupo de proyecto
 
-
- en esta actualizacion del proyecto no es necesario el usuario sa de SQLServer la base de datos esta alojada en un servidor web y se conecta via remota
+en esta actualizacion del proyecto no es necesario el usuario sa de SQLServer la base de datos esta alojada en un servidor web y se conecta via remota
+Usuario Utilizado en el Sistema
+Usuario Administrador: Miguel
+Contraceña: Admin2024
