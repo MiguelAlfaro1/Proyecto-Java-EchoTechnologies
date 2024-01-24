@@ -24,6 +24,17 @@ CREATE TABLE Usuario
  foreign key (IdRol) references Rol(Id) on delete Cascade
 )
 
+Create Table Empleado(
+ [Id] int not null primary key identity(1,1), 
+ [IdUsuario] int not null, 
+ [Nombre] varchar(100) not null, 
+ [Apellido] varchar(100) not null,
+ [Edad] char (5) not null,
+ [Departamento] varchar(100) not null,
+ [Telefono] varchar(15) not null,
+ foreign key (IdUsuario) references Usuario(Id) on delete Cascade
+)
+
 CREATE TABLE Producto
 (
  [Id] int not null primary key identity(1,1), 
@@ -32,7 +43,6 @@ CREATE TABLE Producto
  [Descripcion] varchar(200) not null,
  [Precio] char(15) not null
 )
- drop table Producto
 
 Insert Into Rol(Nombre) Values ('Administrador')
 Insert Into Rol(Nombre) Values ('Usuario')

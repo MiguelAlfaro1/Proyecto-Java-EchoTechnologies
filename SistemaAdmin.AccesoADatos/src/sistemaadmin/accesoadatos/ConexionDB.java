@@ -26,10 +26,10 @@ public class ConexionDB {
     }
     //propiedad del SGBD que estamos utilizando
     static int TIPODB = TipoDB.SQLSERVER;
-    static String connectionURL = "jdbc:sqlserver://localhost:1433;"
+    static String connectionURL = "jdbc:sqlserver://DBAdministrador.mssql.somee.com;"
             + "database=DBAdministrador;"
-            + "user=sa;"
-            + "password=12345678;"
+            + "user=Miguel0096_SQLLogin_1;"
+            + "password=9vhnkph4nq;"
             + "loginTimeout=30;encrypt=false;trustServerCertificate=false";
     //+ "integratedSecurity=true";
 

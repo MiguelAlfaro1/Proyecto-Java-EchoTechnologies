@@ -3,6 +3,7 @@
 <%@page import="sistemaadmin.appweb.utils.*"%>
 <%@page import="sistemaadmin.entidades.Rol" %>
 <%@page import="sistemaadmin.accesoadatos.RolDAL" %>
+<%@page import="jakarta.servlet.http.HttpServletRequest"%>
 <!DOCTYPE html>
 <html>
     <head>
